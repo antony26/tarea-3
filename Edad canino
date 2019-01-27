@@ -1,0 +1,25 @@
+<?php
+
+class animal{
+     public $mascota_canina;
+     private $edad;
+
+     function __construct($mascota_canina, $edad){
+          $this->mascota_canina = $mascota_canina;
+          $this->edad = $edad;
+     }
+
+     function getmascotacanina(){
+          return $this->mascota_canina;
+     }
+
+     function getedad(){
+          return $this->edad;
+     }
+
+     function setedad($edad){
+          $this->edad = $edad;
+     }
+
+}
+echo "Introduzca el año del canino";
