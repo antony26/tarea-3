@@ -22,4 +22,4 @@ class animal{
      }
 
 }
-echo "Introduzca el año del canino";
+echo "Su mascota tiene 7 años en edad canino";
